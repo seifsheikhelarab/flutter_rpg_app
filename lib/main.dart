@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rpg_app/screens/home/home.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Home(),
-  ));
+  runApp(const MaterialApp(home: Home()));
 }
 
 class Sandbox extends StatelessWidget {
@@ -16,7 +14,8 @@ class Sandbox extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Sandbox'),
         backgroundColor: Colors.grey,
-    ),
-    body: const Text("sandbox"),
+      ),
+      body: const Center(child: Text("sandbox")),
+    );
   }
 }
