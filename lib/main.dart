@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rpg_app/screens/create/create.dart';
 import 'package:flutter_rpg_app/screens/home/home.dart';
 import 'package:flutter_rpg_app/theme.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Home(),
+    home: Create(),
     theme: primaryTheme,));
 }
 
